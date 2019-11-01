@@ -4,6 +4,8 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/heima-rabbitmq/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-rabbitmq-producer/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-rabbitmq-consumer/pom.xml" />
       </list>
     </option>
   </component>

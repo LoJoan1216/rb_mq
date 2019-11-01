@@ -15,7 +15,7 @@ public class Consumer2 {
         Channel channel = connection.createChannel();
         channel.exchangeDeclare(Producer.DIRECT_EXCHANGE, BuiltinExchangeType.DIRECT);
         channel.queueDeclare(Producer.DIRECT_QUEUE_UPDATE, true, false, false, null);
-        channel.queueBind(Producer.DIRECT_QUEUE_UPDATE, Producer.DIRECT_EXCHANGE, "insert");
+        channel.queueBind(Producer.DIRECT_QUEUE_UPDATE, Producer.DIRECT_EXCHANGE, "update");
         DefaultConsumer consumer = new DefaultConsumer(channel) {
             /**
              *

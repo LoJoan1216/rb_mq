@@ -7,10 +7,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="heima-rabbitmq" />
+        <module name="springboot-rabbitmq-consumer" />
+        <module name="springboot-rabbitmq-producer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="heima-rabbitmq" target="1.5" />
+      <module name="springboot-rabbitmq-consumer" target="1.8" />
+      <module name="springboot-rabbitmq-producer" target="1.8" />
+      <module name="springboot-rabitmq-consumer" target="1.5" />
+      <module name="springboot-rabitmq-producer" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
